@@ -5,7 +5,7 @@ Lucky Duck Casino provided me with several employee schedule files ranging from 
 <br>
 <br><img src="https://i.imgur.com/Q2QtqHE.png" height="70%" width="70%">
 
-Lucky Duck Casino requested a script that would be able to search for a <i> specific time, specific date, and specific game </i> 
+Lucky Duck Casino requested a script that would be able to find the employee working given a <i> specific time, specific date, and specific game </i> 
 
 <h2>Resolution</h2>
 After understanding what is was being requested from Lucky Duck Casino and a familiar understanding of basic command line tools as shown in <a href="https://github.com/jimmyhcao/CowSayScheduling-/blob/main/README.md"> README</a>, we can begin to create a script to parse through the data to find any dealer working given the data, time and game played.
@@ -24,3 +24,29 @@ From there, we can use the <b>awk</b> command to filter out through the data mor
 ```
 awk '{print $1,$2,$3,$4}'
 ```
+
+However, it should be noted that the 3rd and 4th column printed is dependant on which game is being requested as we can see from the above sample schedule that 
+
+<li>Blackjack appears on $3, $4
+<li>Roulette appears on $5, $6
+<li>Texas Hold'em appears on $7, $8 </li>
+
+<br>Therefore, we would need the script to read user input and modify its search based on what was entered through the use of the <b>read</b> command. 
+<br>
+```
+ "Which game? (enter 1,2,3,)"
+echo "1 - Blackjack"
+echo "2 - Roulette"
+echo "3 - Texas"
+echo
+read game
+```
+
+
+
+
+
+
+
+
+
