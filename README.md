@@ -83,7 +83,7 @@ cowsay [options] [your_text]
 <li> <b>'options'</b>: Optional flags that modify the appearance or behavior of the cow or text.
 <li> <b>'your_text'</b>: The text you want the cow to say in the speech bubble.</li>
 
-<br>For example, if you were to run "cowsay <b>"Hello, world!"</b>, the output woud look something like this:
+<br>For example, if you were to run <b>"cowsay "Hello, world!"</b>, the output woud look something like this:
 ```
  _______
 < Hello, world! >
