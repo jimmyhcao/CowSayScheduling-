@@ -86,6 +86,14 @@ case $game in
 esac
 ```
 
+We now have a simple script that will display the name of an employee working given the date, time and casino game played 
+
+<br><p align="center"><i>Video demonstration of script in use</i>
+
+
+https://github.com/jimmyhcao/CowSayScheduling-/assets/132900530/f6404783-0271-4c35-b5b7-1206a1e720b4
+
+
 
 
 
