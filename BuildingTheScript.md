@@ -45,7 +45,7 @@ echo
 read game
 ```
 
-<br>Then depending on user input from the step above, the script can choose the correct column to print out using the <b>case</b> statement.
+<br>Then depending on user input from the step above, the script can choose the correct column to print out using the <b>case</b> command.
 <br>
 ```
 case $game in
