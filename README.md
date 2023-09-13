@@ -27,7 +27,7 @@ grep pattern filename
 <li> <b>'pattern'</b> is the regular expression or text string you want to search for.
 <li> <b>'filename'</b> is the name of the file(s) you want to search in.</li>
 
-For instance, to search for all lines containing the word "example" in a file called file.txt, you would use:
+<br>For instance, to search for all lines containing the word "example" in a file called file.txt, you would use:
 ```
 grep example file.txt
 ```
@@ -68,11 +68,9 @@ The command uses a comma as the field separator (-F',') and prints the first and
 <h3>cowsay</h3>
 <b>cowsay</b> is a famous command line program loved by many programmers that generates ASCII art of an animal (usually a cow) along with a speech bubble containing text that you provide. It's often used for entertainment or to add a touch of humor to command-line interactions.
 
-<br>cowsay will need to be installed before operating, using the following commands:
+<br>cowsay will need to be installed before operating, using the following command:
 ```
-brew install cowsay
 sudo apt-get install cowsay
-yum install cowsay
 ```
 
 To use cowsay, you typically follow this syntax:
