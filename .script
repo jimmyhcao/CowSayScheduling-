@@ -1,1 +1,27 @@
 
+!#/bin/bash
+
+cowsay "Find dealer by date, time, and game"
+echo
+cowsay "Enter the  date (MMDD)"
+echo 
+read date
+echo 
+echo
+cowsay "Enter the time (HH:MM:SS AM/PM)"
+echo 
+read time
+echo
+echo
+cowsay "Which game? (enter 1,2,3,)"
+echo "1 - Blackjack"
+echo "2 - Roulette"
+echo "3 - Texas"
+echo
+read game
+echo
+case $game in
+        1)echo "$date" Blackjack Dealer; grep "$time" "$date"_Dealer_schedule | awk '{print $1,$2,$3,$4}';;
+        2)echo "$date" Roulette Dealer; grep "$time" "$date"_Dealer_schedule | awk '{print $1,$2,$5,$6}';;
+        3)echo "$date" Texas Dealer; grep "$time" "$date"_Dealer_schedule | awk '{print $1,$2,$7,$8}';;
+esac
