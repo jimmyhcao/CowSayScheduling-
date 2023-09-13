@@ -95,7 +95,8 @@ cowsay [options] [your_text]
                 ||     ||
 ```
 
-
+<br>
+Now that we have a basic understanding of the commands we are going to use, we can move towards <a href="https://github.com/jimmyhcao/CowSayScheduling-/blob/63e3f774925e25a676e1877877175a8b716833ef/BashScript.md"> Building The Script</a>
 
 
 
