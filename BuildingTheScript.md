@@ -37,7 +37,7 @@ However, it should be noted that the 3rd and 4th column printed is dependant on 
 <br>Therefore, we would need the script to read user input and modify its search based on what was entered through the use of the <b>read</b> command. 
 <br>
 ```
- "Which game? (enter 1,2,3,)"
+"Which game? (enter 1,2,3,)"
 echo "1 - Blackjack"
 echo "2 - Roulette"
 echo "3 - Texas"
